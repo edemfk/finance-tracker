@@ -1,0 +1,158 @@
+/* Smooth transition */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Default Light Mode Styles */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #212529; /* Dark text */
+    font-family: "Poppins", sans-serif;
+}
+
+/* Dark Mode Styles */
+.dark {
+    background-color: #121212; /* Deep dark background */
+    color: #e0e0e0;
+}
+
+/* Navbar */
+nav {
+    background-color: #007bff;
+    color: white;
+}
+
+.dark nav {
+    background-color: #1a1a1a; /* Darker navbar */
+    color: #e0e0e0;
+}
+
+/* Cards & Containers */
+.card {
+    background-color: white;
+    color: #212529;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dark .card {
+    background-color: #242424;
+    color: #e0e0e0;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Buttons */
+button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.dark button {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+.dark button:hover {
+    background-color: #444;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.dark a {
+    color: #80b3ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.dark a:hover {
+    color: #ffffff;
+}
+
+/* Input Fields */
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.dark input,
+.dark textarea {
+    background-color: #333;
+    border: 1px solid #555;
+    color: #e0e0e0;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+    color: #888;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.dark .sidebar {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+}
+
+.dark footer {
+    background-color: #1a1a1a;
+}
+/* Smooth transition */
+* {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Default Light Mode */
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark Mode Styles */
+.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Navbar */
+.dark .navbar {
+    background-color: #1a1a1a;
+}
+
+/* Card Styling */
+.dark .card {
+    background-color: #242424;
+    color: #e0e0e0;
+}
